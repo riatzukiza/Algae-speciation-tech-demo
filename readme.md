@@ -9,7 +9,14 @@ The game consists of many changing parts, the weather will be a factor in surviv
 
 ## QUICK START
 
-`git clone git@github.com:riatzukiza/Speciation.git`
+```
+git clone git@github.com:riatzukiza/Agae-speciation-tech-demo.git
+cd Algae-speciation-tech-demo
+npm install
+npm run repl
+```
+
+I am looking towards getting this embeded in a browser soon, its written with electron so its not that hard to do.
 
 # Overview
 
