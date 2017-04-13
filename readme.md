@@ -17,6 +17,7 @@ npm run repl
 ```
 
 I am looking towards getting this embeded in a browser soon, its written with electron so its not that hard to do.
+Please let me know in a git issue if this doesn't work for you, and we can work through the problem together.
 
 # Overview
 
