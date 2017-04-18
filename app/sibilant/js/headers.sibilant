@@ -3,7 +3,7 @@
 (include "./meta/macros")
 
 
-(require! (lit create extend mixin) "../../util.js"
+(require! (lit create extend mixin cond partially-apply-after ) "kit/src/util.sibilant" 
           $  "jquery/dist/jquery.min.js"
 
           (lit  Event-emitter ) "events"

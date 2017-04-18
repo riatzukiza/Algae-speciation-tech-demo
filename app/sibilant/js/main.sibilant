@@ -1,5 +1,4 @@
-(include "../../../node_modules/kit/macros.sibilant")
-(include "../../../node_modules/kit/util.sibilant")
+(include "kit/macros.sibilant")
 
 (import-namespace kit)
 

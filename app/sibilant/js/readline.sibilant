@@ -1,11 +1,16 @@
-(include "../../../node_modules/kit/macros.sibilant")
-(include "../../../node_modules/kit/util.sibilant")
+(include "kit/macros.sibilant")
 
-(require! "sibilant")
+
+
+
 
 (import-namespace kit)
 
-(require! R "ramda" "vm" "fs")
+(require! R "ramda"
+
+          "vm" "fs" "sibilant"
+
+          (lit create extend mixin cond partially-apply-after ) "kit/src/util.sibilant" )
 
 (macro def-generic (name args ...body)
        `(generic @name (def) @args ...@body))
