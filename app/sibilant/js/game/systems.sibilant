@@ -59,7 +59,10 @@
   (*  percentage 255))
 
 (def inverse-square (rate c pos (lit x y) )
-  (/ rate (+ c (Math.pow (euclidian-distance x y pos.x pos.y) 2))))
+     (/ rate
+        (+ c
+           (Math.pow
+            (euclidian-distance x y pos.x pos.y) 2))))
 
 (macro positive? (value)
        `(> @value 0))

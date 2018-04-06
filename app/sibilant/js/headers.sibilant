@@ -1,10 +1,8 @@
 
-(include "./meta/meta")
 (include "./meta/macros")
 
 
-(require! (lit create extend mixin cond partially-apply-after ) "kit/src/util.sibilant" 
-          $  "jquery/dist/jquery.min.js"
+(require! $  "jquery/dist/jquery.min.js"
 
           (lit  Event-emitter ) "events"
           (lit Buffer Program Shader Attribute Type Context Uniform) "webgl/lib/webgl/gl.js"
